@@ -1,0 +1,15 @@
+{
+  "name": "rocket-receiver",
+  "version": "0.1.0",
+  "description": "Receiver app for Rocket hardware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Li",
+  "license": "MIT",
+  "dependencies": {
+    "robotjs": "^0.6.0",
+    "serialport": "^8.0.5"
+  }
+}

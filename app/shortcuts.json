@@ -1,0 +1,71 @@
+{
+    "A1": [
+        {
+            "type": "keyboard",
+            "description": "Save a screenshot to clipboard",
+            "value": {
+                "key": "4",
+                "modifiers": ["command", "control", "shift"]
+            }
+        }
+    ],
+    "A2": [
+        {
+            "type": "keyboard",
+            "description": "Trigger a Sublime file switcher",
+            "value": {
+                "key": "p",
+                "modifiers": ["command"]
+            }
+        }
+    ],
+    "A3": [
+        {
+            "type": "keyboard",
+            "description": "Trigger a Sublime command palette",
+            "value": {
+                "key": "p",
+                "modifiers": ["command", "shift"]
+            }
+        }
+    ],
+    "B1": [
+        {
+            "type": "snippet",
+            "description": "Set up a JS function",
+            "value": "function_signature.js"
+        },
+        {
+            "type": "keyboard",
+            "value": {
+                "key": "enter"
+            }
+        }
+    ],
+    "C1": [
+        {
+            "type": "snippet",
+            "description": "Set up a it() testing block",
+            "value": "it_signature.js"
+        },
+        {
+            "type": "keyboard",
+            "value": {
+                "key": "enter"
+            }
+        }
+    ],
+    "C2": [
+        {
+            "type": "snippet",
+            "description": "Set up a describe() testing block",
+            "value": "describe_signature.js"
+        },
+        {
+            "type": "keyboard",
+            "value": {
+                "key": "enter"
+            }
+        }
+    ]
+}
