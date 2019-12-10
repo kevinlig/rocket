@@ -6,7 +6,8 @@ const shortcuts = require('./shortcuts.json');
 
 const MSG_REGEX = />>_([A-Z][0-9])_<</;
 
-const port = new SerialPort('/dev/tty.usbmodem141301', {
+const deviceTarget = fs.readFileSync('./.device', 'utf8');
+const port = new SerialPort(deviceTarget, {
     baudRate: 115200
 });
 
